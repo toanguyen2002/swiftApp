@@ -11,13 +11,15 @@ import FirebaseCore
 struct ContentView: View {
 
     init() {
-        FirebaseApp.configure()
+//        FirebaseApp.configure()
     }
     var body: some View {
-        VStack {
-            HomeView()
+        NavigationView{
+            VStack {
+                SplashScreen()
+            }
+
         }
-//        .padding()
     }
 }
 //
