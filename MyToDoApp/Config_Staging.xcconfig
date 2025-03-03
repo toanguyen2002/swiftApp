@@ -1,0 +1,9 @@
+//
+//  Config_Staging.xcconfig
+//  user-manager
+//
+//  Created by Toán Nguyễn on 26/2/25.
+//
+API_BASE_URL = "https://staging.api.example.com"
+API_KEY = "staging-987654"
+ENVIRONMENT = "STAGING"
